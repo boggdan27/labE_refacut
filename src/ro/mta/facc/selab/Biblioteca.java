@@ -21,6 +21,10 @@ public class Biblioteca {
         Collections.sort(Carti);
     }
 
+    public void removebook(Carte c)
+    {
+        Carti.remove(c);
+    }
     @Override
     public String toString() {
         StringBuilder builder;

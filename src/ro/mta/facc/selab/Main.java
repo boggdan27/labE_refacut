@@ -5,13 +5,13 @@ import java.util.ArrayList;
 public class Main {
     public static void main(String[] args)
     {
-       /* Carte c = new Carte("Biblia pierduta","Igor Bergler",2017,600);
+        Carte c = new Carte("Biblia pierduta","Igor Bergler",2017,600);
         Biblioteca b = new Biblioteca();
         b.addCarti(c);
         b.addCarti(new Carte("Invitatie la vals","Mihail Drumes",1910,250));
         b.addCarti(new Carte("Amintiri din copilarie","Ion Creanga",1880,80));
 
-
+        b.addCarti(new Carte("moara cu noroc","Victor slavici",1920,199));
         b.sort();
         System.out.println(b.toString());
 
@@ -39,7 +39,7 @@ public class Main {
                 System.out.println("alt thread");
             }
         }).start();
-*/
+
 
 /*
         ArrayList<Task> tasks = new ArrayList<Task>();
@@ -52,7 +52,7 @@ public class Main {
             j.execute();
 */
 
-        MyThread thread = new MyThread();
+    /*    MyThread thread = new MyThread();
         thread.start();
         try {
             thread.join();
@@ -67,6 +67,6 @@ public class Main {
             public void run() {
                 System.out.println("alt thread");
             }
-        }).start();
+        }).start();*/
     }
 }
